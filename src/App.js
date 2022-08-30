@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Form from "./Form";
+import Preview from "./Preview";
+import Footer from "./Footer";
+import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [name, setName] = useState("");
+	const [number, setNumber] = useState("");
+	const [month, setMonth] = useState("");
+	const [year, setYear] = useState("");
+	const [cvc, setCvc] = useState("");
+
+	return (
+		<div className="App">
+			<Preview 
+				name = {name}
+				number = {number}
+				month = {month}
+				year = {year}
+				cvc = {cvc}
+			/>
+			<Form 
+				setName = {setName}
+				number = {number}
+				setNumber = {setNumber}
+				setMonth = {setMonth}
+				setYear = {setYear}
+				setCvc = {setCvc}
+			/>
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
