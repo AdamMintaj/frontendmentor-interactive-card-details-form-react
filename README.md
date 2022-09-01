@@ -16,4 +16,4 @@ You can see the outcome [here](https://frontendmentor-interactive-card-details-f
 
 ## In case you're curious,
 
-and somehow ended up here, you might check out [my other solutions](https://www.frontendmentor.io/profile/AdamMintaj/) as well.
+and somehow ended up here, you may check out [my other solutions](https://www.frontendmentor.io/profile/AdamMintaj/) as well.
