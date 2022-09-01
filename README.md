@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Frontend Mentor - Interactive card details form solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overwiev
 
-## Available Scripts
+This repository holds my solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges are frontend exercices where you can test yourself, improve your coding or generally try new things while building realistic projects.
 
-In the project directory, you can run:
+## The challenge
 
-### `npm start`
+The challenge here was to build a form that updates in real-time while the user provides his card details. The form must obviously inform the user if any fields are filled incorrectly or empty.
+Additionally, the form must adapt to the user's device screen size.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How it went
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Actually, I completed the challenge twice, first with just JS and then using React. In my judgement React won this round, as creating controlled inputs turned out to be much easier here. Another fun thing in this challenge was a chance to get your hands dirty with regex which - to me at least - seems simple and is simple just until the time I need to use it myself. Overall I must say that I enjoyed it and rate this challenge as a 10/10 fun challenge.
+You can see the outcome [here](https://frontendmentor-interactive-card-details-form-react.vercel.app/)
 
-### `npm test`
+## In case you're curious,
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+and somehow ended up here, you might check out [my other solutions](https://www.frontendmentor.io/profile/AdamMintaj/) as well.
