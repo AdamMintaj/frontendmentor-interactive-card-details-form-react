@@ -25,14 +25,20 @@ body {
     background-color: white;
     background-size: 100%;
 	font-size: 18px;
+    height: 100%;
 }
 
 #root, .App {
     height: 100%;
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
 .preview {
-    height: 100%;
+    // height: 100%;
 	margin-top: 2rem;
 
     &__card {
@@ -120,8 +126,10 @@ body {
 .form {
     width: 87%;
     margin: auto;
+    height: calc(37vw + 180px);
 
     &__wrapper {
+        height: calc(37vw + 180px);
         backface-visibility: hidden;
         position: relative;
 		transition: 0.8s;
@@ -223,8 +231,12 @@ body {
 }
 
 .footer {
-    position: absolute;
-	top: 94vh;
+    // position: absolute;
+	// top: 94vh;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	text-align: center;
 	width: 100vw;
 	color: $darkViolet;
@@ -334,5 +346,11 @@ body {
         &__button {
             margin-top: 25px;
         }
+    }
+
+    .footer {
+        position: absolute;
+        top: 94vh;
+        display: block;
     }
 }

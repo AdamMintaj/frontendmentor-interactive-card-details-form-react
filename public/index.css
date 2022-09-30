@@ -16,14 +16,24 @@ body {
   background-color: white;
   background-size: 100%;
   font-size: 18px;
+  height: 100%;
 }
 
 #root, .App {
   height: 100%;
 }
 
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .preview {
-  height: 100%;
   margin-top: 2rem;
 }
 
@@ -131,9 +141,11 @@ body {
 .form {
   width: 87%;
   margin: auto;
+  height: calc(37vw + 180px);
 }
 
 .form__wrapper {
+  height: calc(37vw + 180px);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: relative;
@@ -241,8 +253,18 @@ body {
 }
 
 .footer {
-  position: absolute;
-  top: 94vh;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   width: 100vw;
   color: #8e8593;
@@ -351,6 +373,11 @@ body {
   }
   .form__button {
     margin-top: 25px;
+  }
+  .footer {
+    position: absolute;
+    top: 94vh;
+    display: block;
   }
 }
 /*# sourceMappingURL=index.css.map */
